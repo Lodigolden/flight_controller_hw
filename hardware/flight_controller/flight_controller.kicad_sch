@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2bfbf9a0-d54c-4c70-8f53-69ec128eb219")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 133.35 132.715)
+		(size 20.955 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b1541dd-e97d-479a-896a-6b275f23b8c9")
+		(property "Sheetname" "eeprom"
+			(at 133.35 132.0034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 133.35 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight_controller"
+				(path "/2bfbf9a0-d54c-4c70-8f53-69ec128eb219"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 106.68)
+		(size 22.86 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9be51471-b33b-4569-999f-40f292e87d17")
+		(property "Sheetname" "imu"
+			(at 86.36 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 86.36 128.2196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight_controller"
+				(path "/2bfbf9a0-d54c-4c70-8f53-69ec128eb219"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 73.66)
+		(size 30.48 28.575)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb47f130-ad5e-4f67-bbf1-46d0ab1f3286")
+		(property "Sheetname" "mcu"
+			(at 128.27 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 128.27 102.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight_controller"
+				(path "/2bfbf9a0-d54c-4c70-8f53-69ec128eb219"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 60.325)
+		(size 23.495 18.415)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb6b3827-a76e-486e-ad04-ba8913d87b77")
+		(property "Sheetname" "altimeter"
+			(at 55.88 59.6134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "altimeter.kicad_sch"
+			(at 55.88 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight_controller"
+				(path "/2bfbf9a0-d54c-4c70-8f53-69ec128eb219"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
